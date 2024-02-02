@@ -1,0 +1,107 @@
+/* styles.css */
+
+html { /*need to apply to html instead of body for  */
+    font-family: Futura, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(rgb(43, 94, 95), rgb(22, 187, 189));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card {
+    max-width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    border: 2px solid gray;
+    background-color: white;
+}
+
+.online {
+    position: relative;
+    top: 0px;
+    right: 10px;
+    color: lightgray;
+    text-align: right;
+    font-size: 12px;
+
+
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border: 2.75px solid rgb(131, 205, 145);
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.stars-title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+    font-size: 16px;
+    padding: 2px;
+}
+
+.star {
+    width: 20px;
+    margin-right: 5px;
+
+}
+
+.service-tp {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.service-bp {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.phone-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color: #00796b; applied gradient for styling*/
+    background-image: linear-gradient(to right, rgb(131, 205, 145), rgb(9, 96, 24));
+    border-radius: 5px;
+}
+
+.phone,
+.message {
+    display: flex;
+    height: 45px;
+    width: 30px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.phone:hover,
+.message:hover {
+    background-color: rgb(77, 145, 89);
+}
