@@ -1,6 +1,7 @@
 /* styles.css */
 
-html { /*need to apply to html instead of body for  */
+html {
+    /*need to apply to html instead of body to apply gradient to the whole page instead of just one box */
     font-family: Futura, sans-serif;
     padding: 0;
     margin: 0;
